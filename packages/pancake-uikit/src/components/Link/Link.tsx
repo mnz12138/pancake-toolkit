@@ -1,19 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { Link as ReactLink } from "react-router-dom";
 import getExternalLinkProps from "../../util/getExternalLinkProps";
 import Text from "../Text/Text";
 import { LinkProps } from "./types";
 
-// const StyledLink = styled(Text)<LinkProps>`
-//   display: flex;
-//   align-items: center;
-//   width: fit-content;
-//   &:hover {
-//     text-decoration: underline;
-//   }
-// `;
-const StyledLink = styled(ReactLink)`
+const StyledLink = styled(Text)<LinkProps>`
   display: flex;
   align-items: center;
   width: fit-content;
@@ -22,9 +13,10 @@ const StyledLink = styled(ReactLink)`
   }
 `;
 
-const Link: React.FC<LinkProps> = ({ external, href, ...props }) => {
+const Link: React.FC<LinkProps> = ({ external, ...props }) => {
   const internalProps = external ? getExternalLinkProps() : {};
-  return <StyledLink as="a" to={href ? href : ''} bold {...internalProps} {...props} />;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return <StyledLink as="a" bold {...internalProps} {...props} />;
 };
 
 Link.defaultProps = {

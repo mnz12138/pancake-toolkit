@@ -23,7 +23,7 @@ export const styleVariants = {
   },
   [variants.PRIMARYDARK]: {
     backgroundColor: "primary",
-    color: "textSubtle",
+    color: "textDark",
   },
   [variants.SECONDARY]: {
     backgroundColor: "transparent",

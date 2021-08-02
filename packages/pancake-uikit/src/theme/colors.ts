@@ -58,8 +58,8 @@ export const darkColors: Colors = {
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
   dropdownDeep: "#100C18",
-  invertedContrast: "#0A0E12",
-  input: "#0A0E12",
+  invertedContrast: "#0A0E12",//弹窗背景色
+  input: "#0A0E12",//输入框背景色
   inputSecondary: "#262130",
   tertiary: "#353547",
   text: "#F4EEFF",

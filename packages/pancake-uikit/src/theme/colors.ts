@@ -63,7 +63,7 @@ export const darkColors: Colors = {
   inputSecondary: "#262130",
   tertiary: "#353547",
   text: "#F4EEFF",
-  textDisabled: "#666171",
+  textDisabled: "rgba(255,255,255,0.3)",
   textSubtle: "#FFFFFF",
   textDark: "#000000",
   disabled: "#524B63",

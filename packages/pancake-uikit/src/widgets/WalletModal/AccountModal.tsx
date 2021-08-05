@@ -24,7 +24,7 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
     </Text>
     <Flex mb="32px">
       <LinkExternal small href={`https://www.oklink.com/okexchain/address/${account}`} mr="16px">
-        View on BscScan
+        View on OKLink
       </LinkExternal>
       <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
     </Flex>

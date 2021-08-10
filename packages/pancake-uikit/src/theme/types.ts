@@ -59,7 +59,8 @@ export type Colors = {
   text: string;
   textDisabled: string;
   textSubtle: string;
-  textDark: string;
+  textWhite: string;
+  textBlack: string;
   disabled: string;
   borderColor: string;
   hover: string;

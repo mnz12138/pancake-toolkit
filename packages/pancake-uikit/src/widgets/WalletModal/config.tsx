@@ -3,12 +3,17 @@ import MathWallet from "./icons/MathWallet";
 import TokenPocket from "./icons/TokenPocket";
 import TrustWallet from "./icons/TrustWallet";
 import WalletConnect from "./icons/WalletConnect";
-import BinanceChain from "./icons/BinanceChain";
+import OKLink from "./icons/OKLink";
 import Coin98Wallet from "./icons/Coin98Wallet";
 import SafePalWallet from "./icons/SafePalWallet";
 import { Config, ConnectorNames } from "./types";
 
 const connectors: Config[] = [
+  {
+    title: "OKEx Wallet",
+    icon: OKLink,
+    connectorId: ConnectorNames.Injected,
+  },
   {
     title: "Metamask",
     icon: Metamask,
@@ -34,11 +39,11 @@ const connectors: Config[] = [
     icon: WalletConnect,
     connectorId: ConnectorNames.WalletConnect,
   },
-  {
-    title: "Binance Chain Wallet",
-    icon: BinanceChain,
-    connectorId: ConnectorNames.BSC,
-  },
+  // {
+  //   title: "Binance Chain Wallet",
+  //   icon: BinanceChain,
+  //   connectorId: ConnectorNames.BSC,
+  // },
   {
     title: "SafePal Wallet",
     icon: SafePalWallet,

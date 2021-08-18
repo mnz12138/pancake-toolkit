@@ -12,7 +12,7 @@ const connectors: Config[] = [
   {
     title: "OKEx Wallet",
     icon: OKLink,
-    connectorId: ConnectorNames.Injected,
+    connectorId: ConnectorNames.OEC,
   },
   {
     title: "Metamask",
@@ -39,11 +39,6 @@ const connectors: Config[] = [
     icon: WalletConnect,
     connectorId: ConnectorNames.WalletConnect,
   },
-  // {
-  //   title: "Binance Chain Wallet",
-  //   icon: BinanceChain,
-  //   connectorId: ConnectorNames.BSC,
-  // },
   {
     title: "SafePal Wallet",
     icon: SafePalWallet,

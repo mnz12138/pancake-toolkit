@@ -62,7 +62,7 @@ export const darkColors: Colors = {
   input: "#242A35",//输入框背景色
   inputSecondary: "#262130",
   tertiary: "#353547",
-  text: "#F4EEFF",
+  text: "#FFFFFF",
   textDisabled: "rgba(255,255,255,0.3)",
   textSubtle: "#FFFFFF",
   textDark: "#000000",

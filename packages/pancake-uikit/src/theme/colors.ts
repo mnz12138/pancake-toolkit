@@ -2,7 +2,7 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#3E7EFF",
+  primary: "#7E8CCB",
   primaryBright: "#53DEE9",
   primaryDark: "#0098A1",
   secondary: "#7645D9",
@@ -51,15 +51,15 @@ export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
   secondary: "#FDD436",
-  background: "#131317",
-  backgroundDisabled: "#4B515C",
-  backgroundAlt: "#272C35",
+  background: "#262C35",
+  backgroundDisabled: "#676D77",
+  backgroundAlt: "#323A4B",
   cardBorder: "#383241",
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
   dropdownDeep: "#100C18",
-  invertedContrast: "#1C1E22",//弹窗背景色 card里块背景色
-  input: "#1C1E22",//输入框背景色
+  invertedContrast: "#242A35",//弹窗背景色 card里块背景色
+  input: "#242A35",//输入框背景色
   inputSecondary: "#262130",
   tertiary: "#353547",
   text: "#F4EEFF",

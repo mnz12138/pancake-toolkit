@@ -51,19 +51,19 @@ export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
   secondary: "#FDD436",
-  background: "#0A0E12",
-  backgroundDisabled: "#3A3A40",
-  backgroundAlt: "#1F1F20",
+  background: "#191B2E",
+  backgroundDisabled: "#2A2D42",
+  backgroundAlt: "#20233C",
   cardBorder: "#383241",
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
   dropdownDeep: "#100C18",
-  invertedContrast: "#0A0E12",//弹窗背景色
-  input: "#0A0E12",//输入框背景色
+  invertedContrast: "#191B2E",//弹窗背景色
+  input: "#191B2E",//输入框背景色
   inputSecondary: "#262130",
   tertiary: "#353547",
   text: "#F4EEFF",
-  textDisabled: "#666171",
+  textDisabled: "#888D9B",
   textSubtle: "#FFFFFF",
   textDark: "#000000",
   disabled: "#524B63",

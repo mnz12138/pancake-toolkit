@@ -23,8 +23,8 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
       {account}
     </Text>
     <Flex mb="32px">
-      <LinkExternal small href={`https://www.etherscan.io/address/${account}`} mr="16px">
-        View on etherscan
+      <LinkExternal small href={`https://polygonscan.com/address/${account}`} mr="16px">
+        View on polygonscan
       </LinkExternal>
       <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
     </Flex>
